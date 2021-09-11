@@ -1,3 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #0B0C10;
+    color: #d8d8d8;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top:0;
+    left:0;
+    font-family: 'Karla', sans-serif;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #d8d8d8;
+
+}
+.navbar a.nav-logo{
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Karla', sans-serif;
+    color:#d8d8d8;
+    font-weight:bold;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height:inherit;
+    padding:0 5px;
+}
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+.navbar ul li a:hover{
+    background-color: gray;
+}
+body{
+    background-color: black;
+    
+}
+.content{
+    font-family: 'Karla', sans-serif;
+    color:#d8d8d8;
+    margin-top:30%;
+    margin-left:100px;
+}
 h1{
-    color:navy;
+    font-size: 70px;
+    color:#66FCF1;
+}
+p{
+    margin-top: 10px;
+    color:#C5C6C7;
+}
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.btns{
+    margin-top:20px;
+    background: #45A29E;
+    cursor: pointer;
+    color:#C5C6C7;
+    padding:12px 20px;
+    float: left;
+    border: 0;
+    border-radius: 20px;
+    margin-left:10px;
+}
+.btns:hover{
+    background: #848484;
+}
+img{
+    margin-top: 150px;
+    margin-left: 175px;
+    width: 700px;
+    filter:grayscale(1);
+}
+img:hover{
+    filter:grayscale(0);
+    cursor: pointer;
+    transition: 3s;
+}
+title{
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    color:#C5C6C7;
+}
+h2{
+    text-align: center;
+  position:static;
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    color:#66FCF1
+}
+.skills ul li{
+    font-family: 'Karla', sans-serif;
+    color:#d8d8d8;
+    text-decoration: none;
+    text-align: left;
+  position:static;
+}
+h3{
+    text-align: center;
+  position:static;
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    color:#66FCF1
+}
+h4{
+    text-align: center;
+  position:static;
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    color:#66FCF1
+}
+.hobbies ul li{
+    text-align: left;
+  position:static;
+    font-family: 'Karla', sans-serif;
+    color:#d8d8d8;
+    text-decoration: none;
+}
+.projects ul li{
+    text-align: left;
+  position:static;
+    font-family: 'Karla', sans-serif;
+    color:#d8d8d8;
+    text-decoration: none;
 }
