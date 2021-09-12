@@ -1,0 +1,142 @@
+.navbar{
+    background-color: #61892F;
+    color: #6B6E70;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    font-size: 18px;
+    padding: 0 30px;
+    position: absolute;
+    top:0;
+    left:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #d8d8d8;
+
+}
+.navbar a.nav-logo{
+    float: left;
+    height: inherit;
+    line-height: inherit;
+    padding: 0 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#d8d8d8;
+    font-weight:bold;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+    height: inherit;
+    line-height:inherit;
+    padding:0 5px;
+}
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    min-width: 120px;
+    padding: 0 30px;
+}
+.navbar ul li a:hover{
+    background-color: gray;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color: #86C232;
+    font-size: 70px;
+}
+.headline p {
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color: #86C232;
+    font-size: 70px;
+}
+
+.history p{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color: #86C232;
+    font-size: 70px;
+}
+
+.career p{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color: #86C232;
+    font-size: 70px;
+}
+.otherWorks p{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+
+h5{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    text-align: center;
+    color: #86C232;
+    font-size: 70px;
+}
+
+.popWorks ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font:'Helvetica';
+    display: flex;
+  justify-content: center;
+    color:white;
+    font-size: 30px;
+}
+
+img{
+    margin-left: 260px;
+    margin-top: 80px;
+}
+
+body{
+    background-color: #222629;
+}
